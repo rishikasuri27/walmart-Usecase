@@ -125,13 +125,13 @@ output application/json
             </on-error-propagate>
         </error-handler>
     </flow>
-    <flow name="get:\products\(get-details):walmart_usecase_api-config">
+    <flow name="get:\products\(get-details):walmart_usecase_api-config" doc:id="e0eb5e9c-cd62-4c9c-adff-c3c791f26c2b">
         <flow-ref doc:name="Flow Reference" doc:id="283329a9-1c36-418f-bf9e-b1637a1d796a" name="getProductDetails" />
     </flow>
-    <flow name="get:\stores\(list):walmart_usecase_api-config">
+    <flow name="get:\stores\(list):walmart_usecase_api-config" doc:id="edcb3681-0eb5-468a-9a19-08f5197e11c0">
         <flow-ref doc:name="Flow Reference" doc:id="517fc649-9f2c-4642-b9d8-3f112a2aaafc" name="getNearbyStore" />
     </flow>
-    <flow name="post:\product-details:application\json:walmart_usecase_api-config">
+    <flow name="post:\product-details:application\json:walmart_usecase_api-config" doc:id="7b727338-2507-49b2-b871-9c7408d16470">
         <flow-ref doc:name="postProductDetails" doc:id="16b2e1e3-1f5a-4b2d-a4a2-cf7929e47e07" name="postProductDetails" />
     </flow>
 </mule>
